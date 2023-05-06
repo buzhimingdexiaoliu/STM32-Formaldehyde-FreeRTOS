@@ -1,0 +1,15 @@
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+xiaokefeng\queue.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+xiaokefeng\queue.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+xiaokefeng\queue.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+xiaokefeng\queue.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+xiaokefeng\queue.o: ../Core/Inc/FreeRTOSConfig.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+xiaokefeng\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

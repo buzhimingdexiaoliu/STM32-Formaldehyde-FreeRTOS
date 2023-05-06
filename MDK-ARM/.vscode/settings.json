@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "bsp_oled.h": "c",
+        "esp8266.h": "c",
+        "bsp_i2c.h": "c"
+    }
+}

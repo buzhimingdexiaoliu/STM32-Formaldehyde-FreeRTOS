@@ -1,0 +1,165 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=WHYH9-4L5ZH-9U54U-SV9BL-8LH2P-Z4CZF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  F:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+F:\CubeMXProject\XiaoKeFeng\MDK-ARM\XiaoKeFeng.uvprojx
+Project File Date:  03/03/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'XiaoKeFeng'
+compiling timers.c...
+compiling list.c...
+compiling croutine.c...
+compiling heap_4.c...
+compiling event_groups.c...
+compiling stream_buffer.c...
+compiling queue.c...
+compiling tasks.c...
+compiling cmsis_os.c...
+compiling port.c...
+compiling stm32f1xx_it.c...
+compiling main.c...
+..\User\ESP8266\esp8266.h(25): warning:  #1295-D: Deprecated declaration ESP8266_Init - give arg types
+  uint8_t ESP8266_Init();
+..\User\ESP8266\esp8266.h(26): warning:  #1295-D: Deprecated declaration ESP8266_SETMode - give arg types
+  void ESP8266_SETMode();
+..\User\ESP8266\esp8266.h(27): warning:  #1295-D: Deprecated declaration ESP8266_ConnectAP - give arg types
+  void ESP8266_ConnectAP();
+..\User\ESP8266\esp8266.h(28): warning:  #1295-D: Deprecated declaration ESP8266_ConfigMQTT - give arg types
+  void ESP8266_ConfigMQTT();
+..\User\ESP8266\esp8266.h(29): warning:  #1295-D: Deprecated declaration ESP8266_Connect - give arg types
+  void ESP8266_Connect();
+..\User\ESP8266\esp8266.h(31): warning:  #1-D: last line of file ends without a newline
+  # endif
+..\User\OLED\bsp_oled.h(47): warning:  #1295-D: Deprecated declaration OLED_EntireDisplay - give arg types
+  void OLED_EntireDisplay();
+..\User\OLED\bsp_oled.h(48): warning:  #1295-D: Deprecated declaration OLED_SetDisplayMode - give arg types
+  void OLED_SetDisplayMode();
+..\User\OLED\bsp_oled.h(49): warning:  #1295-D: Deprecated declaration OLED_SetDisplay - give arg types
+  void OLED_SetDisplay();
+..\User\OLED\bsp_oled.h(57): warning:  #1295-D: Deprecated declaration OLED_SetReMap - give arg types
+  void OLED_SetReMap();
+..\User\OLED\bsp_oled.h(59): warning:  #1295-D: Deprecated declaration OLED_SetScanMode - give arg types
+  void OLED_SetScanMode();
+..\User\OLED\bsp_oled.h(65): warning:  #1295-D: Deprecated declaration OLED_SetChargePump - give arg types
+  void OLED_SetChargePump();
+..\User\OLED\bsp_oled.h(66): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+..\User\OLED\bsp_oled.h(71): warning:  #1-D: last line of file ends without a newline
+  # endif
+../Core/Src/main.c: 14 warnings, 0 errors
+compiling freertos.c...
+..\User\ESP8266\esp8266.h(25): warning:  #1295-D: Deprecated declaration ESP8266_Init - give arg types
+  uint8_t ESP8266_Init();
+..\User\ESP8266\esp8266.h(26): warning:  #1295-D: Deprecated declaration ESP8266_SETMode - give arg types
+  void ESP8266_SETMode();
+..\User\ESP8266\esp8266.h(27): warning:  #1295-D: Deprecated declaration ESP8266_ConnectAP - give arg types
+  void ESP8266_ConnectAP();
+..\User\ESP8266\esp8266.h(28): warning:  #1295-D: Deprecated declaration ESP8266_ConfigMQTT - give arg types
+  void ESP8266_ConfigMQTT();
+..\User\ESP8266\esp8266.h(29): warning:  #1295-D: Deprecated declaration ESP8266_Connect - give arg types
+  void ESP8266_Connect();
+..\User\ESP8266\esp8266.h(31): warning:  #1-D: last line of file ends without a newline
+  # endif
+..\User\OLED\bsp_oled.h(47): warning:  #1295-D: Deprecated declaration OLED_EntireDisplay - give arg types
+  void OLED_EntireDisplay();
+..\User\OLED\bsp_oled.h(48): warning:  #1295-D: Deprecated declaration OLED_SetDisplayMode - give arg types
+  void OLED_SetDisplayMode();
+..\User\OLED\bsp_oled.h(49): warning:  #1295-D: Deprecated declaration OLED_SetDisplay - give arg types
+  void OLED_SetDisplay();
+..\User\OLED\bsp_oled.h(57): warning:  #1295-D: Deprecated declaration OLED_SetReMap - give arg types
+  void OLED_SetReMap();
+..\User\OLED\bsp_oled.h(59): warning:  #1295-D: Deprecated declaration OLED_SetScanMode - give arg types
+  void OLED_SetScanMode();
+..\User\OLED\bsp_oled.h(65): warning:  #1295-D: Deprecated declaration OLED_SetChargePump - give arg types
+  void OLED_SetChargePump();
+..\User\OLED\bsp_oled.h(66): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+..\User\OLED\bsp_oled.h(71): warning:  #1-D: last line of file ends without a newline
+  # endif
+../Core/Src/freertos.c(322): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,GREEN_Pin,0);
+../Core/Src/freertos.c(323): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,RED_Pin,1);
+../Core/Src/freertos.c(324): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,BLUE_Pin,0);
+../Core/Src/freertos.c(329): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,GREEN_Pin,0);
+../Core/Src/freertos.c(330): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,RED_Pin,0);
+../Core/Src/freertos.c(331): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,BLUE_Pin,1);
+../Core/Src/freertos.c(336): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,GREEN_Pin,1);
+../Core/Src/freertos.c(337): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,RED_Pin,0);
+../Core/Src/freertos.c(338): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(GPIOA,BLUE_Pin,0);
+../Core/Src/freertos.c(303): warning:  #177-D: variable "CO2"  was declared but never referenced
+    char CO2[128];
+../Core/Src/freertos.c(304): warning:  #177-D: variable "TVOS"  was declared but never referenced
+    char TVOS[128];
+../Core/Src/freertos.c(373): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+          OLED_ShowString(4,0,CO2);   //显示CO2浓度
+../Core/Src/freertos.c(374): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+          OLED_ShowString(6,0,TVOS);  //显示甲醛等气体浓度
+../Core/Src/freertos.c(443): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(ch,"AT+TEST=2,0282,0%x\r\n",data);
+../Core/Src/freertos.c(444): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(ch1,"AT+TEST=6,0282,0%x\r\n",data);
+../Core/Src/freertos.c(448): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(ch,"AT+TEST=2,0282,%d\r\n",data);
+../Core/Src/freertos.c(449): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(ch1,"AT+TEST=6,0282,%d\r\n",data);
+../Core/Src/freertos.c: 31 warnings, 0 errors
+linking...
+Program Size: Code=15772 RO-data=2568 RW-data=160 ZI-data=9808  
+FromELF: creating hex file...
+"XiaoKeFeng\XiaoKeFeng.axf" - 0 Error(s), 45 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_XiaoKeFeng
+  F:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  F:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

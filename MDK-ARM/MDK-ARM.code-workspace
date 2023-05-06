@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.cjson": "jsonc",
+            "*.wxss": "css",
+            "*.wxs": "javascript",
+            "esp8266.h": "c"
+        }
+    },
+    "extensions": {},
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": []
+    }
+}
